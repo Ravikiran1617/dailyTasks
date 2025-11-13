@@ -15,7 +15,7 @@ main()
 # import asyncio
 
 # async def fetch_data():
-#     await asyncio.sleep(2)
+#     await asyncio.sleep(2)    
 #     return "Data fetched!"
 
 # async def main():
@@ -23,3 +23,4 @@ main()
 #     print("Done")
 
 # asyncio.run(main())
+

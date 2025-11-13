@@ -3,7 +3,7 @@ import time
 
 def task():
     print("Task started")
-    time.sleep(3)
+    time.sleep(3)        
     print("Task finished")
 
 t1 = threading.Thread(target=task)

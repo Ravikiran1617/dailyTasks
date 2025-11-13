@@ -20,7 +20,6 @@ for t in threads:
 print("All threads completed")
 
 
-
 # | You want to...                | Use...              |
 # | ----------------------------- | ------------------- |
 # | Wait until one thread is done | `.join()`           |
