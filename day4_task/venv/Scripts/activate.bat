@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=C:\Users\AIFA USER 247\Desktop\fastapi_todo\venv"
+set "VIRTUAL_ENV=C:\Users\AIFA USER 247\Desktop\aifa_tasks\day4_task\venv"
 
 if not defined PROMPT set PROMPT=$P$G
 

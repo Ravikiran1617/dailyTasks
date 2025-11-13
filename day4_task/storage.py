@@ -6,7 +6,7 @@ from schemas import TodoInDB, TodoBase
 _db: Dict[str, dict] = {}
 
 def create_item(data: TodoBase) -> TodoInDB:
-    new_id = str(uuid4())
+    new_id = str(uuid4()) 
     now = datetime.utcnow()
     item = data.dict()
     item.update({"id": new_id, "created_at": now, "updated_at": now})
