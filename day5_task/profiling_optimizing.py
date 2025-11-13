@@ -6,6 +6,8 @@ def slow_function():
     for i in range(1000000):
         total += i
     time.sleep(1)
-    return total
+    print(total) 
+    return total 
 
-cProfile.run('slow_function()')
+res = cProfile.run('slow_function()')
+print(res) 
