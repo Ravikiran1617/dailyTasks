@@ -1,19 +1,12 @@
 from fastapi import FastAPI
-from schemas.user_schema import UserRegister, UserResponse, UserLogin
-from services.user_service import register_user, verify_user
+from routers.auth_router import router as auth_router
+from routers.task_router import router as task_router
+from routers.admin_router import router as admin_router
+from routers.user_router import router as user_router
 
-app = FastAPI(title="User Registration API", version="1.0.0")
+app = FastAPI(title="User Access Control System")
 
-@app.post("/register", response_model=UserResponse)
-def register(user: UserRegister):
-    """
-    Register a new user with password hashing.
-    """
-    return register_user(user)
-
-@app.post("/verify", response_model=UserResponse)
-def verify(user: UserLogin):
-    """
-    Verify an existing user by checking email and password.
-    """
-    return verify_user(user)
+app.include_router(auth_router)
+app.include_router(task_router)
+app.include_router(admin_router)
+app.include_router(user_router)  

@@ -6,6 +6,7 @@ from core.security import create_access_token, blacklisted_tokens
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from jose import JWTError, jwt
 from core.config import settings
+from core.dependencies import get_current_user
 
 bearer_scheme  = HTTPBearer()
 router = APIRouter(prefix="/auth", tags=["Authentication"])
