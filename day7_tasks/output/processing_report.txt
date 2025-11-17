@@ -1,0 +1,30 @@
+======================================================================
+CSV DATA PROCESSING PIPELINE REPORT
+======================================================================
+
+Generated: 2025-11-17 12:43:30
+Source File: customers.csv
+
+PROCESSING SUMMARY
+----------------------------------------------------------------------
+Initial Shape: (100, 12)
+Final Shape: (100, 12)
+Duplicates Removed: 0
+Transformations Applied: 1
+
+TRANSFORMATIONS:
+  • Cleaned column names
+
+FINAL COLUMNS:
+  • Index (int64)
+  • Customer_Id (object)
+  • First_Name (object)
+  • Last_Name (object)
+  • Company (object)
+  • City (object)
+  • Country (object)
+  • Phone_1 (object)
+  • Phone_2 (object)
+  • Email (object)
+  • Subscription_Date (object)
+  • Website (object)

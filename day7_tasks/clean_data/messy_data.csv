@@ -1,0 +1,9 @@
+Name,Age,City,Salary,Joining Date
+ Alice ,25,nyc,50000,2023-01-15
+Bob,,Los Angeles,60000,2022/12/01
+alice,25,New York City,50000,15-01-2023
+Charlie,30,Chicago,not available,2023-02-20
+David, ,san francisco,70000,2023-03-10
+Eve,28,NYC,65000,2023/01/20
+Frank,35,Los Angeles,80000,not available
+ Grace,32,Chicago,75000,2023-02-25

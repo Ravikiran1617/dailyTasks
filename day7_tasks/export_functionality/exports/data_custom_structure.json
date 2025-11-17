@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "export_date": "2025-11-17 12:57:42",
+    "total_records": 5,
+    "columns": [
+      "Customer_ID",
+      "Name",
+      "Age",
+      "City",
+      "Salary",
+      "Department",
+      "Join_Date"
+    ]
+  },
+  "data": [
+    {
+      "Customer_ID": "C001",
+      "Name": "John Smith",
+      "Age": 28,
+      "City": "New York",
+      "Salary": 55000,
+      "Department": "Sales",
+      "Join_Date": "2020-01-31 00:00:00"
+    },
+    {
+      "Customer_ID": "C002",
+      "Name": "Jane Doe",
+      "Age": 34,
+      "City": "Los Angeles",
+      "Salary": 68000,
+      "Department": "IT",
+      "Join_Date": "2020-02-29 00:00:00"
+    },
+    {
+      "Customer_ID": "C003",
+      "Name": "Bob Johnson",
+      "Age": 45,
+      "City": "Chicago",
+      "Salary": 72000,
+      "Department": "HR",
+      "Join_Date": "2020-03-31 00:00:00"
+    },
+    {
+      "Customer_ID": "C004",
+      "Name": "Alice Williams",
+      "Age": 29,
+      "City": "Houston",
+      "Salary": 51000,
+      "Department": "Sales",
+      "Join_Date": "2020-04-30 00:00:00"
+    },
+    {
+      "Customer_ID": "C005",
+      "Name": "Charlie Brown",
+      "Age": 52,
+      "City": "Phoenix",
+      "Salary": 89000,
+      "Department": "IT",
+      "Join_Date": "2020-05-31 00:00:00"
+    }
+  ],
+  "summary": {
+    "avg_salary": 67000.0,
+    "total_employees": 5,
+    "departments": [
+      "Sales",
+      "IT",
+      "HR"
+    ]
+  }
+}

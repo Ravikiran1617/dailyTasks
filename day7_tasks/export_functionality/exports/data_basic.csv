@@ -1,0 +1,6 @@
+Customer_ID,Name,Age,City,Salary,Department,Join_Date
+C001,John Smith,28,New York,55000,Sales,2020-01-31
+C002,Jane Doe,34,Los Angeles,68000,IT,2020-02-29
+C003,Bob Johnson,45,Chicago,72000,HR,2020-03-31
+C004,Alice Williams,29,Houston,51000,Sales,2020-04-30
+C005,Charlie Brown,52,Phoenix,89000,IT,2020-05-31

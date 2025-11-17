@@ -1,0 +1,65 @@
+{
+  "Sales": {
+    "count": 2,
+    "avg_salary": 53000.0,
+    "employees": [
+      {
+        "Customer_ID": "C001",
+        "Name": "John Smith",
+        "Age": 28,
+        "City": "New York",
+        "Salary": 55000,
+        "Department": "Sales",
+        "Join_Date": "2020-01-31 00:00:00"
+      },
+      {
+        "Customer_ID": "C004",
+        "Name": "Alice Williams",
+        "Age": 29,
+        "City": "Houston",
+        "Salary": 51000,
+        "Department": "Sales",
+        "Join_Date": "2020-04-30 00:00:00"
+      }
+    ]
+  },
+  "IT": {
+    "count": 2,
+    "avg_salary": 78500.0,
+    "employees": [
+      {
+        "Customer_ID": "C002",
+        "Name": "Jane Doe",
+        "Age": 34,
+        "City": "Los Angeles",
+        "Salary": 68000,
+        "Department": "IT",
+        "Join_Date": "2020-02-29 00:00:00"
+      },
+      {
+        "Customer_ID": "C005",
+        "Name": "Charlie Brown",
+        "Age": 52,
+        "City": "Phoenix",
+        "Salary": 89000,
+        "Department": "IT",
+        "Join_Date": "2020-05-31 00:00:00"
+      }
+    ]
+  },
+  "HR": {
+    "count": 1,
+    "avg_salary": 72000.0,
+    "employees": [
+      {
+        "Customer_ID": "C003",
+        "Name": "Bob Johnson",
+        "Age": 45,
+        "City": "Chicago",
+        "Salary": 72000,
+        "Department": "HR",
+        "Join_Date": "2020-03-31 00:00:00"
+      }
+    ]
+  }
+}

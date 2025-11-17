@@ -69,7 +69,7 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(securit
         # Attach role from token
         user_with_role = {**user, "role": role}
 
-        return user_with_role
+        return user_with_role, token
 
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid or expired token")

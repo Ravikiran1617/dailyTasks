@@ -1,7 +1,8 @@
 from fastapi import HTTPException, status
 from models.user_model import users_db
 from schemas.user_schema import UserRegister, UserResponse, UserLogin
-from core.security import hash_password, verify_password
+from core.security import hash_password, verify_password 
+from . import send_emails
 
 def register_user(user: UserRegister) -> UserResponse:
     if user.email in users_db:
@@ -14,7 +15,8 @@ def register_user(user: UserRegister) -> UserResponse:
         "password": hashed_pw,
         "role": user.role
     }
-
+    # day 8 task to send the user an email about successful registration
+    send_emails.send_registeration_email_to_user(user.email)
     return UserResponse(
         username=user.username,
         email=user.email,

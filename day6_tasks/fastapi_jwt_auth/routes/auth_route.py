@@ -26,7 +26,8 @@ def login(user: UserLogin):
             detail="Invalid username or password"
         )
 
-    token = create_access_token({"sub": user.username})
+    token = create_access_token({"sub": user.username}) 
+    
     return TokenResponse(access_token=token)
 
 
